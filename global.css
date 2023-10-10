@@ -80,6 +80,191 @@ body {
   }
 }
 
+.local {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.local-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.local-text p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #33433d;
+  margin-top: 0.5rem;
+}
+
+.local-map iframe {
+  width: 100%;
+  padding: 1rem;
+}
+
+.maps-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.waze {
+  background-color: #33433d;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.waze a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.maps {
+  background-color: #33433d;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+
+.maps a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.rsvp-text {
+  margin-top: 1rem;
+}
+
+.rsvp-text p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #33433d;
+  margin-top: 0.5rem;
+}
+
+.rsvp {
+  padding: 1rem;
+}
+
+.rsvp input {
+  border-radius: 1rem;
+  padding: 0.2rem;
+  width: 100%;
+  font-size: 0.5rem;
+}
+
+.presenca {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+
+.radio-button {
+  display: flex;
+}
+
+.radio-button label {
+  margin-right: 0.25rem;
+}
+
+.radio-button input {
+  margin-right: 0.25rem;
+}
+
+.presenca-adulto {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+
+.presenca-adulto select {
+  font-size: 0.75rem;
+  border-radius: 1rem;
+  padding: 0.2rem;
+}
+
+.rsvp button {
+  margin-top: 1rem;
+  background-color: rgb(230, 230, 230);
+  color: #33433d;
+  font-size: 0.5rem;
+  font: bold;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.presentes-text {
+  margin-top: 1rem;
+}
+
+.presentes-text p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #33433d;
+  margin-top: 0.5rem;
+}
+
+.presentes {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.presentes img {
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.pix-text {
+  margin-top: 1rem;
+}
+
+.pix-text p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #33433d;
+  margin-top: 0.5rem;
+}
+
+.pix {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pix img {
+  width: 50%;
+  padding: 1rem;
+}
+
+.pix-email p {
+  text-align: center;
+  font-size: 0.5rem;
+  color: #33433d;
+}
+
 .logo {
   width: 100%;
   display: flex;
