@@ -37,6 +37,7 @@ body {
   color: #33433d;
   margin-left: 0.75rem;
   letter-spacing: -0.063rem;
+  border-bottom: 2px solid transparent;
 }
 
 .navbar a:active {
