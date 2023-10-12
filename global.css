@@ -39,22 +39,6 @@ body {
   letter-spacing: -0.063rem;
 }
 
-.float{
-	position: fixed;
-	width: 40px;
-	height: 40px;
-	bottom: 40px;
-	right: 40px;
-	background-color:black;
-	border-radius: 50px;
-	text-align: center;
-	box-shadow: 2px 2px 3px #999;
-}
-
-.my-float{
-	margin-top:22px;
-}
-
 .home-text {
   margin-top: 1rem;
 }
