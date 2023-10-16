@@ -297,14 +297,21 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-
-  .header-img img {
-    height: 50rem;
+  .navbar {
+    margin-top: 1.5rem;
   }
 
   .navbar a {
-    margin-left: 1rem;
+    margin-left: 1.75rem;
     font-size: 1.75rem;
+    letter-spacing: -0.175rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid transparent;
+  }
+
+  .navbar a:hover {
+    border-bottom: 2px solid #33433d;
+    text-decoration: none;
   }
 
   .home-text {
@@ -322,8 +329,7 @@ body {
   }
 
   .slideshow-container {
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-top: 2rem;
   }
 
   .local-text p {
@@ -340,21 +346,21 @@ body {
     width: 50%;
     padding: 1rem;
   }
-  
+
   .maps-buttons {
     display: flex;
     justify-content: center;
     width: 100%;
   }
-  
+
   .waze {
     width: 10%;
   }
-  
+
   .maps {
     width: 10%;
   }
-  
+
   .maps a {
     color: white;
     font-size: 0.75rem;
@@ -365,7 +371,7 @@ body {
   }
 
   .rsvp {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -377,18 +383,37 @@ body {
 
   .rsvp input {
     font-size: 1rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .presenca {
+    margin-bottom: 2rem;
   }
 
   .presenca label {
     font-size: 1rem;
   }
 
+  .presenca-adulto {
+    margin-bottom: 1rem;
+  }
+
   .presenca-adulto label {
     font-size: 1rem;
   }
 
+  .presenca-adulto select {
+    padding: 0.5rem;
+  }
+
   .form-rsvp button {
     font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .form-rsvp button:hover {
+    opacity: 50%;
   }
 
   .presentes-text p {
@@ -407,7 +432,7 @@ body {
   .pix img {
     width: 20%;
   }
-  
+
   .pix-email p {
     font-size: 1rem;
   }
@@ -421,5 +446,4 @@ body {
   .footer img {
     width: 50%;
   }
-
 }
