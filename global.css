@@ -108,9 +108,16 @@ body {
   margin-top: 0.5rem;
 }
 
+.local-map {
+  display: flex;
+  justify-content: center;
+}
+
 .local-map iframe {
   width: 100%;
   padding: 1rem;
+  width: 300px;
+  height: 300px;
 }
 
 .maps-buttons {
@@ -237,13 +244,28 @@ body {
 .presentes {
   margin-top: 1rem;
   display: flex;
-  flex-direction: row;
   width: 100%;
+  justify-content: center;
+}
+
+.presentes a {
+  display: flex;
+  justify-content: center;
 }
 
 .presentes img {
-  width: 100%;
+  width: 50%;
   padding: 0.75rem;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.presentes img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .pix-text {
@@ -345,6 +367,8 @@ body {
   .local-map iframe {
     width: 50%;
     padding: 1rem;
+    width: 600px;
+    height: 500px;
   }
 
   .maps-buttons {
