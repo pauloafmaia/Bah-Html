@@ -16,6 +16,19 @@ body {
   background-color: #f2efed;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f2efed;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #33433d;
+  border-radius: 20px;
+}
+
 .header-img {
   width: 100%;
 }
